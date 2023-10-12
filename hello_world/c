@@ -725,8 +725,13 @@ extern int __overflow (FILE *, int);
 # 2 "main.c" 2
 
 
-# 3 "main.c"
+
+
+
+
+
+# 8 "main.c"
 int main(void)
 {
- gcc $CFILE -E -o c
+ return (0);
 }
