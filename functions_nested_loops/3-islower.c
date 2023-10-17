@@ -4,8 +4,8 @@
 /**
  * _islower - test for lowercase
  *
- * @c: character to verify
- * Return: 1 on success
+ * @c: character to be verified
+ * Return: 1 or 0
  */
 
 int _islower(int c)
