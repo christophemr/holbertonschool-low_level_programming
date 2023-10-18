@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *
+ *times_table - prints the tables
  *
  *
  */
