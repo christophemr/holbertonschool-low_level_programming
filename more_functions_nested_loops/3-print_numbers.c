@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * print_numbers - function that prints numbers
+ *print_numbers - function that prints numbers
  *Return: void
  */
 
