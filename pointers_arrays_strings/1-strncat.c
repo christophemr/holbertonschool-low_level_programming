@@ -4,6 +4,7 @@
  *_strncat - concatenate 2 strings
  *@dest: string to concatenate
  *@src: string to append
+ *@n: number of byte
  *Return: dest
  */
 
