@@ -12,7 +12,7 @@ char *string_toupper(char *j)
 
 	for (i = 0; j[i] != '\0'; i++)
 	{
-		if (j[i] >= 'j' && j[i] <= 'z')
+		if (i[i] >= 'j' && j[i] <= 'z')
 			j[i] -= 32;
 	}
 	return (j);
