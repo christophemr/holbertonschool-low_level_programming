@@ -2,7 +2,7 @@
 
 /**
  *cap_string - capitalizes all word of a string
- *@j: string to capitalize
+ *@s: string to capitalize
  *Return: modified string
  */
 
