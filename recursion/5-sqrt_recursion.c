@@ -17,7 +17,7 @@ int sqrt2(int i, int j)
 /**
 * _sqrt_recursion - return the square root of a number
 * @n: number to calculate the square root
-* Return: 1 on success -1 on error 
+* Return: 1 on success -1 on error
 */
 
 int _sqrt_recursion(int n)
