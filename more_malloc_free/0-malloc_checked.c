@@ -10,7 +10,7 @@ void *malloc_checked(unsigned int b)
 {
 	char *result;
 
-	result = malloc_checked(b);
+	result = malloc(b);
 
 	if (result == NULL)
 		exit(98);
