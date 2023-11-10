@@ -1,16 +1,17 @@
 #include "main.h"
 
-/*
+/**
  * string_nconcat - concatenates two strings
  * @s1: string to concatenates
  * @s2: string to concatenates
+ * @n: number of bytes
  * Return: concatenated string
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i, j, k;
-	char * result;
+	char *result;
 
 	if (s1 == 0)
 		s1 = "";
