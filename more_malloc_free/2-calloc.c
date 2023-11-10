@@ -2,7 +2,7 @@
 
 /**
  * _calloc - allocates memory for an array, using malloc
- * @nmemb: number of elements 
+ * @nmemb: number of elements
  * @size: size of said elements
  * Return: pointer to the allocated memory
  */
@@ -12,6 +12,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	unsigned int i;
 	char *tab;
+
 	if (nmemb == 0 || size == 0)
 		return (0);
 	tab = malloc(nmemb * size);
