@@ -46,10 +46,10 @@ int main(int argc, char *argv[])
 	{
 		nchars = read(file_from, buff, 1024);
 		if (nchars == -1)
-			error_file(-1, 0, argv);
-		wr = write(file_to, buff, 1024);
+			error_file(nchars, 0, argv);
+		wr = write(file_to, buff, nchars);
 		if (wr == -1)
-			error_file(0, -1, argv);
+			error_file(-1, wr, argv);
 	}
 	erro = close(file_from);
 	if (erro == -1)
